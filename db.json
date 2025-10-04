@@ -1,0 +1,25 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Iphone 17 promax",
+            "price": 1000,
+            "quantity": 10,
+            "category": "smartPhone"
+        },
+        {
+            "id": 1,
+            "name": "Lenovo Laptop",
+            "price": 1000,
+            "quantity": 10,
+            "category": "Laptop"
+        },
+        {
+            "id": 1,
+            "name": "Sumsung s25",
+            "price": 1000,
+            "quantity": 10,
+            "category": "smartPhone"
+        }
+    ]
+}
