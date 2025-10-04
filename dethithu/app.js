@@ -17,6 +17,9 @@ const rawHtml = (product) => {
         <td>${product.price}</td>
         <td>${product.quantity}</td>
         <td>${product.category}</td>
+        <td>
+            <button onclick="deleteProduct(${product.id})" class="btn btn-danger">Delete</button>
+        </td>
     </tr>
     `
 }
@@ -26,4 +29,11 @@ const fetchProducts = async () => {
 };
 
 fetchProducts();
+
+const deleteProduct = async (id) => {
+    const inConfim = confirm("Bạn có chắc chắn muốn xóa không")
+    if (!inConfim) return;
+    await axios.delete(`http://localhost:3000/products/${id}`)
+
+}
 

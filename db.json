@@ -1,25 +1,25 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Iphone 17 promax",
-            "price": 1000,
-            "quantity": 10,
-            "category": "smartPhone"
-        },
-        {
-            "id": 1,
-            "name": "Lenovo Laptop",
-            "price": 1000,
-            "quantity": 10,
-            "category": "Laptop"
-        },
-        {
-            "id": 1,
-            "name": "Sumsung s25",
-            "price": 1000,
-            "quantity": 10,
-            "category": "smartPhone"
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Lenovo Laptop",
+      "price": 1000,
+      "quantity": 10,
+      "category": "Laptop"
+    },
+    {
+      "id": 1,
+      "name": "Sumsung s25",
+      "price": 1000,
+      "quantity": 10,
+      "category": "smartPhone"
+    },
+    {
+      "name": "Product 7 update 2",
+      "price": "100000",
+      "quantity": "heheh",
+      "category": "Laptop",
+      "id": 2
+    }
+  ]
 }
